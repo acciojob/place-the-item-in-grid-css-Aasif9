@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  grid-template-rows: repeat(2, 100px); /* Two rows with equal height */
+  width: 200px; /* Total size of the grid */
+  height: 200px; /* Total size of the grid */
+}
+
+.item {
+  border: 1px solid black;
+}
